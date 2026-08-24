@@ -1,19 +1,22 @@
 import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-<section id="center">
-  <div>
-    <h1>iestyn129.dev</h1>
-    <p>why are you here, go away</p>
-  </div>
+<div class="page">
+	<div class="title">
+		<h1>iestyn129.dev</h1>
+		<p>why are you here, go away</p>
+	</div>
 
-  <div>
-    <p>
-      the source code of this website is available here:<br>
-      <a href="https://github.com/iestyn129/iestyn129.dev" target="_blank" rel="noopener noreferrer">
-          https://github.com/iestyn129/iestyn129.dev
-      </a>
-    </p>
-  </div>
-</section>
+	<p class="footer">
+		<span>source code available
+		<a href="https://github.com/iestyn129/iestyn129.dev">here</a>
+		</span>
+
+		<span class="dot"> ᐧ </span>
+
+		<span>licenced under
+		<a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3</a>
+		</span>
+	</p>
+</div>
 `
