@@ -42,3 +42,8 @@ body {
 	justify-self: center;
 	padding: 0 0.5rem;
 }
+
+.error-image {
+	width: 75vh;
+	height: auto;
+}
